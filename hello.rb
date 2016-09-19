@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello!"
+  erb :play_window
 
 end
 
